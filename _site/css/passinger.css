@@ -62,7 +62,8 @@ a,
 a:active,
 a:focus,
 a:active {
-  text-decoration: none;
+  text-decoration: underline;
+  color: black;
 }
 .section-title {
   margin-bottom: 70px;
@@ -202,48 +203,48 @@ header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
     
-#global-header .block {
-  color: #5c00a3;
-}
-
-#global-header .block h1 {
-  font-weight: 400;
-  font-size: 6vw;
-  letter-spacing: 5px;
-  text-transform: none;
-  text-align: left;
-}
-
-
-
 
 /*--
-	Conferences Start -
+Catalogues start -
 --*/
-#conferences {
+
+#catalogues {
   overflow: hidden;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-#conferences .item {
-  text-align: left;
-  padding-left: 50px;
-  padding-bottom: 20px;
+#catalogues h1 {
+  font-size: 4vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
 }
 
-#conferences h1 {
- text-align: left;
- font-weight: 400;
- padding-left: 50px;
- 
+#catalogues li {
+  padding-left: 4vw;
+
 }
 
-#conferences h2 {
-  font-family: 'Quicksand', sans-serif; 
-  font-weight: 400;
+#catalogues ul {
+  padding-bottom: 2vw;
 }
 
+#catalogues a {
+  color: black;
+  
+}
+
+/*--
+	Conferences Start -
+--*/
+
+#catalogue li {
+  padding-bottom: 1vw;
+}
+
+#catalogue ul {
+  padding-top: 2vw;
+}
 
 /*-----
 
@@ -435,7 +436,7 @@ Back to top button
 }
 
 #myBtn:hover {
-  color: #db44d6; /* Add a dark-grey background on hover */
+  color: #095564; /* Add a dark-grey background on hover */
   text-decoration: underline !important;
 }
 
@@ -445,4 +446,23 @@ Back to top button
   left:50%;
   width:200px;
   bottom:10px;
+}
+
+
+
+#catalogue-content {
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#catalogue-content .block {
+  padding-bottom: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+  border-bottom: solid #d2d2cc;
+}
+
+#catalogue-content .h1 {
+  font-family: 'Grenze Gotisch'
 }

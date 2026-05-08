@@ -1,0 +1,75 @@
+---
+layout: page
+title: Catalogues
+permalink: /catalogues/
+---
+
+<!-- Slider Start -->
+<section id="global-header">
+<div class="work">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Catalogues</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Catalogue List Start -->
+<section id="catalogues">
+  <div class="container">
+        <div class="block">
+        <div class="item">
+
+<h1>Charles Tyus</h1>    
+      {% for cat in site.data.C_Tyus_cats %}
+      
+      <ul>
+        <li>
+          <p><strong>{{cat.year}}</strong> | <a href="{{cat.internal_link}}"> {{cat.title}} </a> </p>
+
+        </li>
+        {% endfor %}
+  
+      </ul>
+      
+<h1>Sarah Tyus</h1>
+  {% for cat in site.data.S_Tyus_cats %}
+      <ul>
+        <li>
+          <p><strong>{{cat.year}}</strong> | <a href="{{cat.internal_link}}"> {{cat.title}} </a> </p>
+
+        </li>
+        {% endfor %}
+  
+      </ul>
+   
+{% for cat in site.data.T_pass_cats %}
+      
+      <ul>
+        <li>
+          <p><strong>{{cat.year}}</strong> | <a href="{{cat.internal_link}}"> {{cat.title}} </a> </p>
+
+        </li>
+        {% endfor %}
+  
+      </ul>
+        
+    
+      </ul>
+      </div>
+</section>
+
+<section id="button">
+  <div class="container">
+    <div class="center">
+     <a href="/home">Home</a>
+
+  </div>
+  </div>
+  </section>
+
