@@ -78,8 +78,6 @@ a:active {
   color: #666;
 }
 
-
-
 /*--
 	Header Start
 --*/
@@ -246,6 +244,15 @@ Catalogues start -
   padding-top: 2vw;
 }
 
+.iframe-container {
+width: 100%;
+text-align: center;
+}
+
+.iframe-container iframe {
+  margin: 0 auto;
+  display: block;
+}
 /*-----
 
 Publications
