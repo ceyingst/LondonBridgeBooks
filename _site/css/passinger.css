@@ -1,0 +1,448 @@
+/*
+ * This is the main css file that ships with the airspace theme.
+ * In airspace, it is called style.css
+ * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
+ * The original style.css is now called airspace.css
+ * 
+ */
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Orelega+One&family=Quicksand:wght@300..700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Orelega+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Forum&family=Manrope:wght@200..800&family=Orelega+One&family=Quicksand:wght@300..700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+/*--
+	Common Css
+--*/
+body {
+  font-family: 'Libre Baskerville', serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
+h1 {
+
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 3vw;
+  font-family: 'Grenze Gotisch', serif;
+  font-weight: 200;
+
+
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+
+}
+p {
+  font-size: 15px;
+  line-height: 25px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a,
+a:active,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+.section-title {
+  margin-bottom: 70px;
+}
+.section-title h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 600;
+}
+.section-title p {
+  font-family: 'Cormorant Garamond', serif;
+  color: #666;
+}
+
+
+
+/*--
+	Header Start
+--*/
+header {
+  margin-top: -20px;
+}
+
+header .navbar {
+font-family: 'Orelega-One', serif;
+margin-left: -45px;
+}
+
+
+header .navbar-brand {
+  font-family: 'Orelega-One', serif;
+  font-size: 5vw;
+  font-weight: 500;
+  color: #22251a !important;
+  position: absolute;
+}
+
+header .navbar-default {
+  background: none;
+  border: 0px;
+  position: relative;
+}
+
+header .navbar-default .navbar-nav {
+ 
+  position: relative;
+}
+
+header .navbar-default .navbar-nav li a {
+  color: #22251a;
+  font-size: 1.2em;
+  font-weight: 500;
+  position: relative;
+  font-family: 'Manrope', sans-serif;
+}
+
+header .navbar-default .navbar-nav li a:hover {
+  color:  #d40015 !important;
+}
+/*---------------------------------------------
+					Index Start
+-----------------------------------------------*/
+/*--
+	Slider Start
+--*/
+#slider {
+  background: url("../img/slider-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 30% 50%;
+  padding: 200px 0 280px 0;
+  position: relative;
+}
+
+#slider:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #8b86a3, #322e40);
+  opacity: 0.3;
+}
+#slider .block {
+  color: #E3E3E4;
+}
+#slider .block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 10px;
+  padding-bottom: 45px;
+}
+#slider .block p {
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+
+}
+/*--
+	wrapper Start
+--*/
+
+
+/*--
+	Feature Start - This handles the footers
+--*/
+#feature {
+  padding: 0;
+}
+
+#feature .block {
+  margin: 0;
+}
+
+#feature .footerimage {
+  background: url("../img/footer.jpg") no-repeat;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background-size: 100%;
+}
+
+
+
+/*--
+	Global header start
+--*/
+
+#global-header {
+  position: relative;
+  padding-top: 20px;
+}
+    
+#global-header .block {
+  color: #5c00a3;
+}
+
+#global-header .block h1 {
+  font-weight: 400;
+  font-size: 6vw;
+  letter-spacing: 5px;
+  text-transform: none;
+  text-align: left;
+}
+
+
+
+
+/*--
+	Conferences Start -
+--*/
+#conferences {
+  overflow: hidden;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#conferences .item {
+  text-align: left;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+#conferences h1 {
+ text-align: left;
+ font-weight: 400;
+ padding-left: 50px;
+ 
+}
+
+#conferences h2 {
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 400;
+}
+
+
+/*-----
+
+Publications
+-----*/
+
+#publications {
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#publications h1 {
+  text-align: left;
+  font-weight: 400;
+ }
+
+#publications .item {
+  text-align: left;
+  padding-left: 50px;
+  padding-bottom: 20px;
+
+}
+
+#publications h2 {
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+
+
+}
+
+#publications .article {
+  padding-left: 20px;
+}
+
+/*----
+Contact
+
+-----*/
+
+
+#contact {
+  overflow: hidden;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#contact .item {
+  text-align: left;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+#contact h1 {
+ text-align: left;
+ font-weight: 400;
+ padding-left: 50px;
+}
+
+#contact h2 {
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 400;
+}
+
+/*---------------------------------------------
+					Work Close
+-----------------------------------------------*/
+/*=============================================*/
+/*---------------------------------------------
+					 Contact Start
+-----------------------------------------------*/
+/*--
+	slider-contact Start
+--*/
+#slider-contact {
+  background: url("../img/slider-bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+}
+#slider-contact:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.8;
+}
+#slider-contact .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 90px;
+}
+#slider-contact .block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+}
+#slider-contact .block p {
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+
+/*---------------------------------------------
+					Contact Close
+-----------------------------------------------*/
+/*--------- Heading------------*/
+.heading {
+  padding-bottom: 60px;
+  text-align: center;
+}
+.heading h2 {
+  color: #000;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+}
+.heading p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #292929;
+  font-weight: 300;
+}
+/*---------------------------*/
+/*--
+	footer Start
+--*/
+footer {
+
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 55px;
+}
+footer p {
+  font-size: 13px;
+  line-height: 25px;
+  color: #919191;
+}
+footer a {
+  color: #f186ff;
+}
+footer .footer-manu {
+  padding-bottom: 25px;
+}
+footer .footer-manu ul {
+  margin: 0px;
+  padding: 0px;
+}
+footer .footer-manu ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+footer .footer-manu ul li a {
+  display: inline-block;
+  color: #494949;
+}
+footer .footer-manu ul li a:hover {
+  color: #000;
+}
+
+/*--
+Back to top button
+--*/
+#myBtn {
+  position: relative;
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #22251a; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+
+}
+
+#myBtn:hover {
+  color: #db44d6; /* Add a dark-grey background on hover */
+  text-decoration: underline !important;
+}
+
+#button .center {
+  position:relative; 
+  margin-left:-60px;
+  left:50%;
+  width:200px;
+  bottom:10px;
+}

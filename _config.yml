@@ -12,18 +12,14 @@ keep_files:
   - ".gitignore"
 
 # Site settings
-title: Deidre Lynch
-subtitle: "Professor, Harvard"
-url: "http://ceyingst.github.io" # the base hostname & protocol for your site
-#baseurl: "/DLSite" # Set this value to "" if you want your site to be root
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+title: Buying Books on London Bridge
+url: "http://ceyingst.github.io/BooksonLondonBridge" # the base hostname & protocol for your site
+#baseurl: "/LondonBridgeBooks" # Set this value to "" if you want your site to be root
+
 
 # Build settings
 markdown: kramdown
 
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
 descriptions:
