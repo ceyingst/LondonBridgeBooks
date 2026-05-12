@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Catalogues
-permalink: /CT1664/
+permalink: /CT1664-short/
 ---
 
 <!-- Slider Start -->
@@ -12,7 +12,7 @@ permalink: /CT1664/
       <div class="col-md-12">
         <div class="block">
           <h1>Books Printed, and sold by <em>Charls Tyus</em> at the three Bibles, on <em>London-Bridge</em>.</h1>
-            <a href="/CT1664-short">List View</a>
+          <a href="/CT1664">Detailed View</a>
         </div>
       </div>
     </div>
@@ -40,16 +40,17 @@ permalink: /CT1664/
 
      <ul>
       {% for book in site.data.CT1664 %}
-      <li >{{ book.title }}
-         <p class="estc">* {{book.Year}} <em>{{book.FullTitle}}</em> {{book.Author}} {{book.Edition}} {{book.pub}} {{book.format}} {{ book.ESTCetc }}</p></li>
+      <li >{{ book.title }}</li>
           {% endfor %}
           </ul>
-   <br>
-    <p>[Bound with <a href="https://archive.org/details/bim_early-english-books-1641-1700_the-path-way-to-health-_levens-peter_1664/page/n403/mode/2up">Peter Levens, <em>The path-way to health</em></a>, 1664.]</p>
-
+   
+          <br>
+          <p>[Bound with <a href="https://archive.org/details/bim_early-english-books-1641-1700_the-path-way-to-health-_levens-peter_1664/page/n403/mode/2up">Peter Levens, <em>The path-way to health</em></a>, 1664.]</p>
 </section>
 
 <br> <br> <br>
+
+ 
 
 <section id="button">
   <div class="container">

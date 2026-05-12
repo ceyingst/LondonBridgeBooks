@@ -15,11 +15,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
 /*--
 	Common Css
 --*/
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre-Baskerville', serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -74,7 +75,7 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Libre-Baskerville', serif;
   color: #666;
 }
 
@@ -86,13 +87,13 @@ header {
 }
 
 header .navbar {
-font-family: 'Orelega-One', serif;
+font-family: 'Libre-Baskerville', serif;
 margin-left: -45px;
 }
 
 
 header .navbar-brand {
-  font-family: 'Orelega-One', serif;
+  font-family: 'Libre-Baskerville', serif;
   font-size: 5vw;
   font-weight: 500;
   color: #22251a !important;
@@ -199,6 +200,7 @@ header .navbar-default .navbar-nav li a:hover {
 #global-header {
   position: relative;
   padding-top: 20px;
+  font-family: "Libre-Baskerville", serif;
 }
     
 
@@ -220,7 +222,14 @@ Catalogues start -
 
 #catalogues li {
   padding-left: 4vw;
+  padding-bottom: 2vw;
+ 
 
+}
+
+#catalogues p {
+  font-size: 2.5vw;
+   line-height: 3vw;
 }
 
 #catalogues ul {
@@ -229,19 +238,33 @@ Catalogues start -
 
 #catalogues a {
   color: black;
-  
+
 }
 
 /*--
 	Conferences Start -
 --*/
 
+#catalogue {
+  font-family: "Libre-Baskerville", serif;
+}
+
+
 #catalogue li {
   padding-bottom: 1vw;
+  font-weight: 800;
+  font-size: 2.5vw;
 }
 
 #catalogue ul {
   padding-top: 2vw;
+}
+
+#catalogue .estc {
+  padding-left: 20px;
+  color: rgb(57, 57, 57);
+  font-weight: 100;
+  font-size: 20px;
 }
 
 .iframe-container {
@@ -252,6 +275,13 @@ text-align: center;
 .iframe-container iframe {
   margin: 0 auto;
   display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /*-----
 
@@ -277,7 +307,7 @@ Publications
 }
 
 #publications h2 {
-  font-family: 'Quicksand', sans-serif; 
+  font-family: 'Libre-Baskerville', sans-serif; 
   font-size: 20px;
   padding-bottom: 15px;
   padding-left: 20px;
